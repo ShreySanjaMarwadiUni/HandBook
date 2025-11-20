@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Template 1",
+    "image": "image_for_cover_1_red_and_blue_black",
+    "cover_start": "tmplt1_cover_start",
+    "note_page": "item_note_page",
+    "cover_end": "tmplt1_cover_end"
+  },
+  {
+    "name": "Template 2",
+    "image": "image_for_cover_2_white_and_yellow_blue",
+    "cover_start": "tmplt2_cover_start",
+    "note_page": "item_note_page",
+    "cover_end": "tmplt2_cover_end"
+  }
+]

@@ -1,0 +1,113 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Cover -->
+    <ImageView
+        android:id="@+id/CoverStart"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tmplt1_cover_preview" />
+
+    <!-- Top Heading -->
+    <EditText
+        android:id="@+id/tmplt1_top_small_heading"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:gravity="start"
+        android:hint="Headline\nLorem Ipsum"
+        android:textColor="#0A1633"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Main Year -->
+    <EditText
+        android:id="@+id/tmplt2_top_small_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="2030"
+        android:textColor="#FF3B00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Annual Report Title -->
+    <EditText
+        android:id="@+id/tmplt1_heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="ANNUAL REPORT"
+        android:textColor="#0A1633"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmplt2_top_small_heading" />
+
+    <!-- Subtitle -->
+    <EditText
+        android:id="@+id/tmplt1_subtitle_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="Global Business Solution"
+        android:textColor="#0A1633"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmplt1_heading2" />
+
+    <!-- Bottom Section Title -->
+    <EditText
+        android:id="@+id/tmplt1_bullet_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="LOREM IPSUM DOLOR"
+        android:textColor="#0A1633"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmplt1_subtitle_heading" />
+
+    <!-- Bullet Points -->
+    <EditText
+        android:id="@+id/tmplt1_bullet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="• Lorem ipsum dolor point 01\n• Interdum et malesuada fames point 02\n• Vivamus porta hendrerit nisi point 03"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmplt1_bullet_heading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="HeadingText" type="id" />
+    <item name="YearText" type="id" />
+    <item name="ReportTitle" type="id" />
+    <item name="Subtitle" type="id" />
+    <item name="BottomHeading" type="id" />
+    <item name="BulletPoints" type="id" />
+    <item name="templateSpinner" type="id" />
+    <item name="templatePreview" type="id" />
+    <item name="btnCancel" type="id" />
+    <item name="btnOk" type="id" />
+    <item name="CoverBackground" type="id" />
+    <item name="AnnualText" type="id" />
+    <item name="ReportText" type="id" />
+    <item name="SubtitleText" type="id" />
+    <item name="BottomHeadingText" type="id" />
+    <item name="BulletPoint1" type="id" />
+    <item name="BulletPoint2" type="id" />
+    <item name="BulletPoint3" type="id" />
+</resources>
